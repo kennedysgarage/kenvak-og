@@ -7,6 +7,7 @@
 @import "typography.css.scss";
 @import "structure.css.scss";
 @import "animations.css.scss";
+@import "forms.css.scss";
 @import "utilities.css.scss";
 /* ========================================================= Main ===*/
 html,body{
@@ -22,8 +23,6 @@ html,body{
 	height: 100%;
 	margin: 0 auto -246px;
 }
-
-
 /* ========================================================= Header ===*/
 header{
 	background-color: #252429;
@@ -95,6 +94,9 @@ nav li:last-child a{
 	text-align: center;
 	font-style: italic;
 }
+/* --------------
+-- Talent Info --
+-------------- */
 #talent-info{
 	text-align: center;
 }
@@ -181,6 +183,9 @@ footer, .push {
 	clear: both;
 	height: 246px;
 }
+/* -------
+-- Main --
+------- */
 #main-footer{
 	padding: 40px 0;
 }
@@ -200,6 +205,36 @@ footer, .push {
 #main-footer h5 span{
 	font-size: 16px;
 }
+footer form input[type=email]{
+	background-color: rgba(255,255,255,0.5);
+	border:none;
+	width: 382px;
+}
+footer form button{
+    background-color: rgba(255,255,255,0.25);
+    border:none;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    margin: 10px 0;
+    outline: none;
+    padding: 12px 19px 8px 15px;
+    vertical-align: middle;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+footer form button:hover{
+    background: #1db392;
+}
+footer form button i{
+    line-height: 1;
+}
+/* ------
+-- Sub --
+------ */
 #sub-footer{
 	background-color: #1c1b1f;
 	padding: 20px 0 10px;
@@ -228,9 +263,6 @@ footer, .push {
 #social a:hover{
 	color: #1db392;
 }
-
-
-
 /* ========================================================= Adapt ===*/
 @media all and (min-width: 41em) {
   .g1{max-width: 50%}

@@ -1,17 +1,4 @@
 /* ========================================================= Utility ===*/
-.btn{
-    background-color: #1db392;
-    border-radius: 4px;
-    box-shadow: 0 0 0 2px rgba(255,255,255,0.1) inset, 0 1px 0px rgba(0,0,0,0.3);
-    color: #fff;
-    font-size: 18px;
-    padding: 8px 14px;
-    text-shadow: none;
-}
-.btn:hover{
-    background-color: #18967b;
-    color: #fff;
-}
 hr {
     background: none repeat scroll 0 0 #a4aaae;
     border: medium none;
@@ -48,69 +35,4 @@ mark{
 .note{
     font-size: 14px;
     color: #aaa;
-}
-
-form{
-
-}
-form ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-form li{
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-}
-form p{
-
-}
-form label{
-    
-}
-form input[type=text], form input[type=email]{
-    background-color: rgba(255,255,255,0.5);
-    border:none;
-    border-radius: 3px;
-    padding: 10px;
-    margin: 0 10px 0 0;
-    vertical-align: middle;
-    width: 382px;
-}
-form input[type=text].address{
-    max-width: 500px;
-}
-form button{
-    background-color: rgba(255,255,255,0.25);
-    border:none;
-    border-radius: 5px;
-    color: #fff;
-    display: inline-block;
-    margin: 10px 0;
-    padding: 12px 19px 8px 15px;
-    vertical-align: middle;
-    -o-transition: 0.3s;
-    -ms-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-}
-form button:hover{
-    background: #1db392;
-}
-form button i{
-    line-height: 1;
-}
-::-webkit-input-placeholder {
-   color: #555;
-}
-:-moz-placeholder {
-   color: #555;  
-}
-::-moz-placeholder {
-   color: #555;  
-}
-:-ms-input-placeholder {  
-   color: #555;  
 }
