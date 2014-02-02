@@ -1,9 +1,9 @@
 desc 'deploy to kg via rsync'
 task :deploy do
-  puts 'Deploying to x.kenvak.com, silence is golden...'
+  puts 'Deploying to kenvak.com, silence is golden...'
   user = 'kg41.com'
   server = 's107775.gridserver.com'
-  path = 'domains/x.kenvak.com/html'
+  path = 'domains/kenvak.com/html'
   sh "rsync -rtzh --delete _site/ #{user}@#{server}:#{path}"
   puts 'Finished Mother Fucker!'
 end
