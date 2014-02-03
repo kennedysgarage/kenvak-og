@@ -90,7 +90,7 @@ nav a:hover{
 #intro h1{
 	color: #C7A148;
 	font-family: 'Norwester';
-	font-size: 150px;
+	font-size: 104px;
 	line-height: 1;
 	margin: 200px 0 0;
 	text-align: center;
@@ -216,7 +216,6 @@ footer{
 }
 footer, .push {
 	clear: both;
-	height: 246px;
 }
 /* -------
 -- Main --
@@ -305,6 +304,12 @@ footer form button i{
   .g2{max-width: 50%}
   .g3{max-width: 50%}
   .g4{max-width: 100%}
+  #intro h1{
+  	font-size: 150px;
+  }
+  footer, .push {
+	height: 246px;
+  }
 }
 @media all and (min-width: 960px) {
   .container {max-width: 960px}
