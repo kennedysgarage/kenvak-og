@@ -16,6 +16,7 @@ html,body{
 	font-weight: 400;
 	margin: 0;
 	height: 100%;
+	text-rendering: optimizeLegibility;
 }
 #wrapper {
 	min-height: 100%;
@@ -170,7 +171,7 @@ nav a:hover{
 }
 #company-info a:hover{
 	background-color: #1EBD9A;
-	color: #fff	;	
+	color: #fff	;
 }
 /* ========================================================= Page ===*/
 .page{
@@ -182,7 +183,7 @@ nav a:hover{
 	font-weight: 500;
 }
 .a{
-	color: #C7A148;	
+	color: #C7A148;
 }
 /* ========================================================= About ===*/
 #about{
@@ -234,7 +235,7 @@ footer, .push {
 	color: #999;
 	font-family: 'Alice', serif;
 	font-size: 20px;
-	font-weight: 400;	
+	font-weight: 400;
 }
 #main-footer h5 span{
 	font-size: 16px;
